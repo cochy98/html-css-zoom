@@ -19,10 +19,10 @@
 </head>
 <body>
     <header class="d-flex">
-        <div id="change-view">
+        <div id="change-view" class="bg-gray">
             <i class="fas fa-bars"></i> Speaker View
         </div>
-        <div id="full-view">
+        <div id="full-view" class="bg-gray">
             <i class="fas fa-expand-arrows-alt"></i>
         </div>
     </header>
@@ -104,6 +104,24 @@
         </div>
     </main>
     
-    <nav></nav>
+    <nav class="d-flex">
+        <div class="col-left">
+            <div class="action-box d-flex">
+                <div>
+                    <i class="fas fa-microphone"></i>
+                    <p>Mute</p>
+                </div>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </div>
+
+
+
+        <div class="col-center"></div>
+
+        
+
+        <div class="col-right bg-gray">End meeting</div>
+    </nav>
 </body>
 </html>

@@ -26,6 +26,9 @@ main{
 nav{
     height: 10vh;
     background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 .fl-left{float: left;}
@@ -40,11 +43,12 @@ nav{
 .d-flex{display: flex;}
 .relative{position: relative;}
 
+.bg-gray{background-color: #4a4a4a;}
+
 header > div {
     padding: 0.3rem;
     margin-right: .5rem;
     border-radius: 6px;
-    background-color: #4a4a4a;
 }
 
 .container{
@@ -55,7 +59,6 @@ header > div {
 }
 
 main .user{
-    /* width: calc(100% / 7); */
     width: 250px;
     height: 150px;
     justify-content: flex-start;
@@ -68,7 +71,31 @@ main .user{
 main .user .user-full-name{
     padding: 0.4rem;
     background-color: rgba(0, 0, 0, .3);
-    /* position: absolute;
-    left: 0;
-    bottom: 5px; */
+}
+
+nav .action-box{
+    background-color: tomato;
+}
+
+nav .action-box i:first-child{
+    font-size: 2rem;
+}
+
+nav .action-box i.fa-chevron-up{
+    align-self: center;
+}
+
+
+nav .col-center{
+    width: 500px;
+    height: 100%;
+    background-color: royalblue;
+}
+
+
+
+nav .col-right{
+    height: 100%;
+    padding: 0 20px;
+    color: red;
 }
