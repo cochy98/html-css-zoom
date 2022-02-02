@@ -24,6 +24,7 @@ main{
 }
 
 nav{
+    min-width: 1100px;
     height: 10vh;
     background-color: #222222;
     justify-content: space-between;
@@ -31,18 +32,12 @@ nav{
     text-align: center;
 }
 
-.fl-left{float: left;}
-.fl-right{float: right;}
-
-.clearfix::after{
-    content: "";
-    display: table;
-    content: both;
-}
-
 .d-flex{display: flex;}
-.relative{position: relative;}
 
+.flex-all-centered{
+    justify-content: center;
+    align-items: center;
+}
 .bg-gray{background-color: #4a4a4a;}
 
 header > div {
@@ -73,29 +68,28 @@ main .user .user-full-name{
     background-color: rgba(0, 0, 0, .3);
 }
 
-nav .action-box{
-    background-color: tomato;
-}
-
-nav .action-box i:first-child{
-    font-size: 2rem;
-}
-
-nav .action-box i.fa-chevron-up{
+nav .action-set{
     align-self: center;
 }
 
-
-nav .col-center{
-    width: 500px;
-    height: 100%;
-    background-color: royalblue;
+nav .action-icon{
+    padding: 10px;
 }
 
+nav .action-icon i{
+    font-size: 2rem;
+}
 
+nav .action{
+    padding-right: 16px;
+}
+
+nav .col-center .action .action-icon i{
+    color: green;
+}
 
 nav .col-right{
-    height: 100%;
+    line-height: 10vh;
     padding: 0 20px;
     color: red;
 }

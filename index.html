@@ -20,7 +20,7 @@
 <body>
     <header class="d-flex">
         <div id="change-view" class="bg-gray">
-            <i class="fas fa-bars"></i> Speaker View
+            <i class="fas fa-th"></i> Speaker View
         </div>
         <div id="full-view" class="bg-gray">
             <i class="fas fa-expand-arrows-alt"></i>
@@ -105,21 +105,72 @@
     </main>
     
     <nav class="d-flex">
-        <div class="col-left">
-            <div class="action-box d-flex">
-                <div>
+        <div class="col-left d-flex">
+            <div class="action d-flex">
+                <div class="action-icon">
                     <i class="fas fa-microphone"></i>
                     <p>Mute</p>
                 </div>
-                <i class="fas fa-chevron-up"></i>
+                <div class="action-set">
+                    <i class="fas fa-chevron-up"></i>
+                </div>
+            </div>
+            <div class="action d-flex">
+                <div class="action-icon">
+                    <i class="fas fa-video"></i>
+                    <p>Stop Video</p>
+                </div>
+                <div class="action-set">
+                    <i class="fas fa-chevron-up"></i>
+                </div>
             </div>
         </div>
 
 
 
-        <div class="col-center"></div>
+        <div class="col-center d-flex flex-all-centered">
+            <div class="action-icon">
+                <i class="fas fa-user-plus"></i>
+                <p>Invite</p>
+            </div>
+            <div class="action-icon">
+                <i class="fas fa-user-friends"></i>
+                <p>Manage Participants</p>
+            </div>
+            <div class="action-icon">
+                <i class="fas fa-chart-bar"></i>
+                <p>Polling</p>
+            </div>
+            
+            <div class="action d-flex">
+                <div class="action-icon">
+                    <i class="fas fa-share-square"></i>
+                    <p>Share Screen</p>
+                </div>
+                <div class="action-set">
+                    <i class="fas fa-chevron-up"></i>
+                </div>
+            </div>
 
-        
+            <div class="action-icon">
+                <i class="fas fa-comment"></i>
+                <p>Chat</p>
+            </div>
+            <div class="action-icon">
+                <i class="fas fa-record-vinyl"></i>
+                <p>Record</p>
+            </div>
+            <div class="action-icon">
+                <i class="fas fa-th-large"></i>
+                <p>Breakout Rooms</p>
+            </div>
+            <div class="action-icon">
+                <i class="fas fa-ellipsis-h"></i>
+                <p>More</p>
+            </div>
+        </div>
+
+
 
         <div class="col-right bg-gray">End meeting</div>
     </nav>
