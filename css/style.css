@@ -1,0 +1,27 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Font per tutto il body */
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+header{
+    height: 5vh;
+}
+
+main{
+    height: 85vh;
+    background-color: indianred;
+    overflow-y: auto;
+}
+
+nav{
+    height: 10vh;
+    background-color: gray;
+}
